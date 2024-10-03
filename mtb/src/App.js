@@ -18,7 +18,7 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/mtb_repair_74/" element={<Main />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/shopt" element={<Shopt />} />
         <Route path="/shopg" element={<Shopg />} />
