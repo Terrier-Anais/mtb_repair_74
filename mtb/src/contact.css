@@ -1,0 +1,37 @@
+p{
+    color:black;
+    margin:15px;
+    
+}
+
+.adresse{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+   display:inline;
+   text-align: center;
+   
+}
+
+.tel{
+    padding-top: 15px;
+
+}
+
+.email{
+    color:blue;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.email:hover{
+    text-decoration: underline;
+}
+
+.contact{
+    padding-top: 32px;
+    padding-bottom: 280px;
+}

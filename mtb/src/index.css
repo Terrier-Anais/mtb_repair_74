@@ -11,3 +11,211 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.wrapper{
+  width:940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.clear{
+  clear:both;
+}
+h5, h6{
+  font-size: 24px;
+  color:#20706c
+}
+
+h4{
+  color:black;
+  font-size: 30px;
+}
+
+
+p{
+  line-height:20px;
+  color:rgb(27, 2, 51);
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+small{
+  font-size:13px;
+  font-style: italic;
+}
+/* Main Image */
+
+#main-image {
+  height: 520px; /* Hauteur fixée pour le conteneur */
+  background-image: url(./src/images/h1fond.jpg); /* Chemin relatif à l'image */
+  background-size: cover; /* Couvre tout le conteneur */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+#main-image h2{
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px 0 40px 0;
+  margin-bottom: 50px;
+  color:wheat
+}
+
+.button-1{
+  display: block;
+  width:120px;
+  height:50px;
+  background: #20706c;
+  color:black;
+  font-size:20px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  border-radius:3px;
+}
+
+.button-1:hover{
+  background: #20706c;
+  color:white;
+}
+
+
+/* Steps */
+
+#steps ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 80px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#steps ul li {
+  flex: 1 1 30%;
+  max-width: 300px;
+  padding-top: 140px;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 60px;
+  background-size: 60px 60px; 
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position: center 20px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+#steps h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#steps p {
+  margin-bottom: 20px;
+}
+
+#step-1 {
+  background-image: url("./src/images/icon-services.png");
+}
+
+#step-2 {
+  background-image: url("./src/images/icon-services.png");
+}
+
+#step-3 {
+  background-image: url("./src/images/icon-shop.png");
+}
+
+/* possibilities*/
+
+#possibilities .wrapper {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: nowrap; 
+  gap: 20px; 
+}
+
+#possibilities article {
+  flex: 1 1 calc(50% - 20px);
+  height: 270px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#possibilities article:first-child {
+  margin-right: 20px;
+}
+
+.overlay{
+ /* display: inline;
+ background-color: rgba(255, 255, 255, 0.95);
+  height:100%;
+  width:190px;*/
+  padding:20px;
+  border-radius:10px 0 0 10px;
+  text-align: center;
+  margin:12px
+} 
+
+#possibilities .article h4 {
+  background-color: white; /* Arrière-plan blanc */
+  color: black; /* Couleur du texte */
+  border-bottom: 1px solid #ddd; /* Bordure inférieure */
+  padding: 10px 20px; /* Espacement interne */
+  text-transform: uppercase; /* Mettre le texte en majuscule */
+  margin-bottom: 20px;
+  text-align: center; /* Centrer le texte */
+  border-radius: 5px; /* Coins arrondis */
+  display: inline-block; /* Affichage en ligne pour que l'arrière-plan s'adapte au texte */
+}
+
+
+#possibilities p{
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.button-2 {
+  color: #fff;
+  background-color: #20706c;
+  padding: 6px 20px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.button-2:hover{
+  color:#fff;
+  background-color: firebrick;
+}
+.postan, .posgets {
+  display: inline-block; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  width: 500px; 
+  height: 400px; 
+  margin: 20px; 
+  padding: 0px; 
+}
+.postan {
+  background-image: url("./src/images/shoptaninges.jpg");
+  margin-right: 30px;
+}
+
+.posgets {
+  background-image: url("./src/images/lesgets.jpeg");
+}
+
+/* footer{} */

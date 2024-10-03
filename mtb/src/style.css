@@ -1,0 +1,95 @@
+*{
+    margin:0;
+}
+
+
+body{
+    font-family: 'Overpass Mono', monospace;
+    font-size: 1em;
+    background-color: white;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+.nav:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+header, footer{
+    background-color:#3c635b;
+    padding:10px 20px;
+}
+
+.lien-icone{
+    margin-left:20px;
+}
+
+.lien-icone:hover{
+    opacity:0.5;
+}
+
+
+/* footer{
+  position:fixed;
+  display:inline-flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+} */
+
+footer,nav{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+nav a{
+    margin-left:30px
+}
+
+@media screen and (max-width: 996px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    header nav img {
+      margin-bottom: 20px;
+    }
+  
+    header,
+    footer {
+      padding: 20px 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    section {
+      padding: 50px 20px 50px 20px;
+    }
+  
+    nav a {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  h1 {
+    font-size: 3.5em;
+    color:#073763;
+    font-family: 'Overpass Mono', sans-serif;
+  }
