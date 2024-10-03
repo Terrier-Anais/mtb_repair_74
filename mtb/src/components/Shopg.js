@@ -28,31 +28,31 @@ function Shopg() {
         <tbody>
     <tr>
         <td>Lundi</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
     <tr>
         <td>Mardi</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
     <tr>
         <td>Mercredi</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
     <tr>
         <td>Jeudi</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
     <tr>
         <td>Vendredi</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
     <tr>
         <td>Samedi</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
     <tr>
         <td>Dimanche</td>
-        <td>8h30-18h30</td>
+        <td>9h-18h30</td>
     </tr>
 </tbody>
 </table>

@@ -6,11 +6,11 @@ function Header() {
   return (
     <header>
       <nav>
-        <Link to="/" className="lien-icone">
+        <Link to="/mtb_repair_74" className="lien-icone">
           <img src={logo2} alt="mtbrepair74" height="125px" width="auto" />
         </Link>
         <div>
-         <Link className="nav" to="/">Accueil</Link>
+         <Link className="nav" to="/mtb_repair_74">Accueil</Link>
           <Link className="nav" to="/Shopt">Shop Taninges</Link>
           <Link className="nav" to="/Shopg">Shop Les Gets</Link>
           <Link className="nav" to="/Service">Services</Link>

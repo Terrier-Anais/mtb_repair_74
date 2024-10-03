@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
 <footer>
-        <Link to="/" class="lien-icone">
+        <Link to="/mtb_repair_74" class="lien-icone">
             <img src={logo2} alt="Mtbrepair74" height="70px" width="auto"/>
         </Link>
 

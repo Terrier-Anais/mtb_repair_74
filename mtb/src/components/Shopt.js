@@ -32,23 +32,23 @@ function Shopt() {
                 </tr>
                 <tr>
                     <td>Mardi</td>
-                    <td>8h30-12h/14h-18h30</td>
+                    <td>9h-12h/14h-18h</td>
                 </tr>
                 <tr>
                     <td>Mercredi</td>
-                    <td>8h30-12h/14h-18h30</td>
+                    <td>9h-12h/14h-18h</td>
                 </tr>
                 <tr>
                     <td>Jeudi</td>
-                    <td>8h30-12h/14h-18h30</td>
+                    <td>9h-12h/14h-18h</td>
                 </tr>
                 <tr>
                     <td>Vendredi</td>
-                    <td>8h30-12h/14h-18h30</td>
+                    <td>9h-12h/14h-18h</td>
                 </tr>
                 <tr>
                     <td>Samedi</td>
-                    <td>8h30-12h/14h-18h30</td>
+                    <td>9h-12h/14h-18h30</td>
                 </tr>
                 <tr>
                     <td>Dimanche</td>
