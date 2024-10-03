@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mtb_repair_74/static/css/main.f7e35c21.css",
+    "main.js": "/mtb_repair_74/static/js/main.acd67267.js",
+    "static/js/453.4784498b.chunk.js": "/mtb_repair_74/static/js/453.4784498b.chunk.js",
+    "static/media/h1fond.jpg": "/mtb_repair_74/static/media/h1fond.d40de3d133d94dca6c04.jpg",
+    "static/media/lesgets.jpeg": "/mtb_repair_74/static/media/lesgets.11c856365069f01f7d7b.jpeg",
+    "static/media/logo2.png": "/mtb_repair_74/static/media/logo2.7d9c0f9085ed3fc174fd.png",
+    "static/media/icon-services.png": "/mtb_repair_74/static/media/icon-services.81e9d9a7c63e5738bf58.png",
+    "static/media/shoptaninges.jpg": "/mtb_repair_74/static/media/shoptaninges.ab28d8635d508e7e1ffd.jpg",
+    "static/media/icon-shop.png": "/mtb_repair_74/static/media/icon-shop.3f2129f47161ea7e2600.png",
+    "index.html": "/mtb_repair_74/index.html",
+    "main.f7e35c21.css.map": "/mtb_repair_74/static/css/main.f7e35c21.css.map",
+    "main.acd67267.js.map": "/mtb_repair_74/static/js/main.acd67267.js.map",
+    "453.4784498b.chunk.js.map": "/mtb_repair_74/static/js/453.4784498b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e35c21.css",
+    "static/js/main.acd67267.js"
+  ]
+}
