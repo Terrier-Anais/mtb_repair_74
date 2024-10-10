@@ -27,7 +27,6 @@ function Main() {
               <h4>Montage Frein Hope</h4>
               <p>Faites évoluer votre vélo avec des nouveaux freins</p>
             </li>
-            <div className="clear"></div>
           </ul>
         </div>
       </section>
@@ -49,8 +48,6 @@ function Main() {
           <Link to="/shopg" className="button-2">Shop</Link>
            </article>
           </div>
-
-          <div className="clear"></div>
         </div>
       </section>
     </main>

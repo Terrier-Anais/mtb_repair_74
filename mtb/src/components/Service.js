@@ -3,7 +3,7 @@ import '../service.css';
 
 function Service(){
     return(<main>
-        <section class="services">
+        <section className="services">
             <div>
                 <h1>Nos Services</h1>
                     <ul>

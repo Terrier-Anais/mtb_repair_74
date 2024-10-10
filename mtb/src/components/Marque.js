@@ -3,7 +3,7 @@ import '../marque.css';
 
 function Marque(){
     return(<main>
-        <section class="construction">
+        <section className="construction">
             <div>
                 <h1>En construction ...</h1>
                 <p></p>

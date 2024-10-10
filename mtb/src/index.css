@@ -12,81 +12,75 @@ code {
     monospace;
 }
 *{
-  margin:0;
-  padding:0;
+  box-sizing: border-box; 
 }
 
 
 .wrapper{
-  width:940px;
+  max-width: 1200px; 
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px; 
 }
 
 .clear{
   clear:both;
 }
-h5, h6{
-  font-size: 24px;
-  color:#20706c
+h4, h5, h6 {
+  color: #20706c; 
 }
 
-h4{
-  color:black;
-  font-size: 30px;
+h4 {
+  font-size: 1.875rem; 
 }
 
-
-p{
-  line-height:20px;
-  color:rgb(27, 2, 51);
+p {
+  line-height: 1.5; 
 }
 
 ul{
   list-style: none;
 }
 
-
-
 small{
   font-size:13px;
   font-style: italic;
 }
-/* Main Image */
+
 
 #main-image {
-  height: 520px; /* Hauteur fixée pour le conteneur */
-  background-image: url(./src/images/h1fond.jpg); /* Chemin relatif à l'image */
-  background-size: cover; /* Couvre tout le conteneur */
-  background-position: center; /* Centre l'image */
-  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  height: 520px; 
+  background-image: url(./src/images/h1fond.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: wheat;
+  text-align: center; 
 }
 
-#main-image h2{
+#main-image h2 {
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  padding: 150px 0 40px 0;
-  margin-bottom: 50px;
-  color:wheat
+  padding: 20px; 
 }
 
-.button-1{
-  display: block;
-  width:120px;
-  height:50px;
+.button-1 {
+  display: inline-block;
+  padding: 10px 20px; 
   background: #20706c;
-  color:black;
-  font-size:20px;
-  margin: 0 auto;
-  line-height: 50px;
+  color: black;
+  font-size: 1.25rem; 
+  margin: 20px 0; 
   text-align: center;
-  border-radius:3px;
+  border-radius: 3px;
+  transition: background 0.3s; 
 }
 
-.button-1:hover{
-  background: #20706c;
-  color:white;
+.button-1:hover {
+  background: #165d54; 
+  color: white;
 }
 
 
@@ -102,7 +96,7 @@ small{
 }
 
 #steps ul li {
-  flex: 1 1 30%;
+  /* flex: 1 1 30%; */
   max-width: 300px;
   padding-top: 140px;
   text-align: center;
@@ -143,7 +137,7 @@ small{
 #possibilities .wrapper {
   display: flex;
   justify-content: center; 
-  flex-wrap: nowrap; 
+  /* flex-wrap: nowrap;  */
   gap: 20px; 
 }
 
@@ -166,19 +160,20 @@ small{
   padding:20px;
   border-radius:10px 0 0 10px;
   text-align: center;
-  margin:12px
+  margin:12px;
+
 } 
 
 #possibilities .article h4 {
-  background-color: white; /* Arrière-plan blanc */
-  color: black; /* Couleur du texte */
-  border-bottom: 1px solid #ddd; /* Bordure inférieure */
-  padding: 10px 20px; /* Espacement interne */
-  text-transform: uppercase; /* Mettre le texte en majuscule */
+  background-color: white; 
+  color: black;
+  border-bottom: 1px solid #ddd; 
+  padding: 10px 20px; 
+  text-transform: uppercase;
   margin-bottom: 20px;
-  text-align: center; /* Centrer le texte */
-  border-radius: 5px; /* Coins arrondis */
-  display: inline-block; /* Affichage en ligne pour que l'arrière-plan s'adapte au texte */
+  text-align: center; 
+  border-radius: 5px;
+  display: inline-block; 
 }
 
 
@@ -192,7 +187,7 @@ small{
   background-color: #20706c;
   padding: 6px 20px;
   border-radius: 3px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.5s ease-in-out; 
 }
 
 .button-2:hover{
@@ -218,4 +213,81 @@ small{
   background-image: url("./src/images/lesgets.jpeg");
 }
 
-/* footer{} */
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #main-image {
+    height: 400px; 
+  }
+
+  #steps ul {
+    flex-direction: row; 
+  }
+
+  #steps ul li {
+    flex: 1 1 calc(45% - 20px); 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  
+  #steps ul {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  #steps ul li {
+    flex: 1 1 100%;
+    margin: 10px 0; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-image {
+    height: 300px;
+  }
+  #possibilities .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #possibilities article {
+    flex: 1 1 100%;
+    max-width: 100%; 
+    margin-right: 0; 
+    margin-bottom: 20px; 
+  }
+}
+
+@media (max-width: 480px) {
+  h4 {
+    font-size: 1.25rem; 
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  .button-1, .button-2 {
+    width: 100%; 
+    font-size: 1rem; 
+  }
+  /* #possibilities article {
+    height: auto; 
+  } */
+
+  /* .postan, .posgets {
+    width: 100%;
+    height: auto;
+  } */
+}
+
