@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mtb_repair_74/static/css/main.f1c571bf.css",
+    "main.css": "/mtb_repair_74/static/css/main.d02897ed.css",
     "main.js": "/mtb_repair_74/static/js/main.5e9a93f1.js",
     "static/js/453.4784498b.chunk.js": "/mtb_repair_74/static/js/453.4784498b.chunk.js",
     "static/media/h1fond.jpg": "/mtb_repair_74/static/media/h1fond.d40de3d133d94dca6c04.jpg",
@@ -10,12 +10,12 @@
     "static/media/shoptaninges.jpg": "/mtb_repair_74/static/media/shoptaninges.ab28d8635d508e7e1ffd.jpg",
     "static/media/icon-shop.png": "/mtb_repair_74/static/media/icon-shop.3f2129f47161ea7e2600.png",
     "index.html": "/mtb_repair_74/index.html",
-    "main.f1c571bf.css.map": "/mtb_repair_74/static/css/main.f1c571bf.css.map",
+    "main.d02897ed.css.map": "/mtb_repair_74/static/css/main.d02897ed.css.map",
     "main.5e9a93f1.js.map": "/mtb_repair_74/static/js/main.5e9a93f1.js.map",
     "453.4784498b.chunk.js.map": "/mtb_repair_74/static/js/453.4784498b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1c571bf.css",
+    "static/css/main.d02897ed.css",
     "static/js/main.5e9a93f1.js"
   ]
 }
