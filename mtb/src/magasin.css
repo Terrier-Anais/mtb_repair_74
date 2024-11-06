@@ -76,9 +76,9 @@ h1, h2 {
   margin-bottom: 30px;
 }
 
-.accueil-introduction div {
+/* .accueil-introduction div {
   padding-right: 80px;
-}
+} */
 
 .accueil-introduction img {
   display: block; 
@@ -125,7 +125,7 @@ h1, h2 {
   }
 
   .taninges {
-    padding: 15px;
+    /* padding: 15px; */
     width: 100%; 
   }
 
